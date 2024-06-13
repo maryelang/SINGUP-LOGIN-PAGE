@@ -10,7 +10,7 @@ export default function Signup() {
         setIsError(true);
     }
 
-    const paperStyle={padding: 20, height: '65vh', width:300, margin: "20px auto"}
+    const paperStyle={padding: 20, height: '60vh', width:300, margin: "20px auto"}
     return (
         <Container>
             <Paper elevation={10} style={paperStyle}>
@@ -34,7 +34,7 @@ export default function Signup() {
                </Box>
                
                <Box sx={{p:1}}>
-                <Typography fontSize={(15)}>Already have an account? <Link to="/login">Log In</Link></Typography>
+                <Typography fontSize={(15)}>Already have an account? <Link to="/">Log In</Link></Typography>
                </Box>
            </Paper>
         </Container>
